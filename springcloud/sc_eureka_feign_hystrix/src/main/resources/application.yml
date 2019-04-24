@@ -1,0 +1,12 @@
+server:
+  port: 10005
+spring:
+  application:
+    name: eureka-feign-hystrix
+eureka:
+  client:
+    service-url:
+      defaultZoon: http://localhost:8761/eureka
+feign:
+  hystrix:
+    enabled: true

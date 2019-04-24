@@ -1,0 +1,13 @@
+#server config
+server:
+  port: 10003
+
+#host
+spring:
+  application:
+    name: eureka-consumer2
+    #×¢²áÖÐÐÄµØÖ·
+eureka:
+  client:
+    service-url:
+      defaultZooe: http://localhost:8761/eureka
